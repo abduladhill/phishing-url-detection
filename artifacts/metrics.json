@@ -1,0 +1,39 @@
+{
+  "accuracy": 0.9665636887123552,
+  "phishing_precision": 0.9787019279297466,
+  "phishing_recall": 0.9431447886775935,
+  "phishing_f1": 0.960594427244582,
+  "legitimate_precision": 0.9579026972523318,
+  "legitimate_recall": 0.9843830952557175,
+  "legitimate_f1": 0.9709623843331934,
+  "confusion_matrix_labels": [
+    0,
+    1
+  ],
+  "confusion_matrix": [
+    [
+      19392,
+      1169
+    ],
+    [
+      422,
+      26600
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n    phishing       0.98      0.94      0.96     20561\n  legitimate       0.96      0.98      0.97     27022\n\n    accuracy                           0.97     47583\n   macro avg       0.97      0.96      0.97     47583\nweighted avg       0.97      0.97      0.97     47583\n",
+  "dataset_rows": 235795,
+  "train_rows": 188212,
+  "test_rows": 47583,
+  "train_label_counts": {
+    "0": 80384,
+    "1": 107828
+  },
+  "test_label_counts": {
+    "0": 20561,
+    "1": 27022
+  },
+  "unique_domain_groups": 220077,
+  "overlapping_domain_groups": 0,
+  "split_method": "GroupShuffleSplit grouped by normalized URL hostname",
+  "random_state": 42
+}

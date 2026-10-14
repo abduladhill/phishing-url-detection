@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Dataset
+*.csv
+*.xlsx
+*.parquet
+
+# Model files
+*.joblib
+*.pkl
+*.pickle
+*.model
+
+# Logs and editor files
+*.log
+.DS_Store
+.vscode/
