@@ -16,6 +16,24 @@ Phishing links often use URL patterns intended to look trustworthy or disguise a
 
 A key design choice is that the model is trained from the dataset's `URL` and `label` columns only. It does **not** depend on fields such as `URLSimilarityIndex`, TLD probabilities, webpage/DOM values, page titles, redirects, or other information that cannot be reliably recreated from a pasted URL alone.
 
+
+## Application Screenshots
+
+### Potential phishing result
+
+The application flags a URL as potential phishing and displays the model's phishing score.
+
+![Potential phishing result](screenshots/phishing-result.png)
+
+### Likely legitimate result
+
+The application classifies a Google URL as likely legitimate and displays its phishing score.
+
+![Likely legitimate result](screenshots/legitimate-result.png)
+
+**Try it yourself:** [Open the live phishing URL detector](https://phishing-url-detection-a8whjsyefcrze4ykhdevec.streamlit.app/)
+
+
 ## Features
 
 - Predicts a submitted URL as **potential phishing** or **likely legitimate**.
