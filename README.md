@@ -118,6 +118,9 @@ phishing-url-detection/
 ├── train.py
 ├── requirements.txt
 ├── README.md
+├── screenshots/
+│   ├── phishing-result.png
+│   └── legitimate-result.png
 └── artifacts/
     ├── feature_names.json
     ├── metrics.json
@@ -133,6 +136,5 @@ phishing-url-detection/
 
 ## Next improvements
 
-- Add a screenshot of the running Streamlit interface.
 - Evaluate on a recent external URL dataset and report false-positive/false-negative examples.
 - Add automated tests for URL normalization and feature extraction.
